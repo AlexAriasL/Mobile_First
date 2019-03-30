@@ -1,0 +1,27 @@
+.column{
+    float: left;
+    width: 30%;
+    height: 50px;
+    background-color: #000000;
+    margin: 10px 0;
+   }
+   @media (min-width: 768px) {
+    .column {
+        background-color: #FFA500;
+        width: 30%;
+        margin:10px 0;
+        
+    }
+}
+
+
+@media (min-width: 992px) {
+    .column {
+        background-color: #9370DB;
+        width: 30%;
+        margin:10px;
+        
+    }
+}
+
+
